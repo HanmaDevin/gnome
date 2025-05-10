@@ -1,3 +1,4 @@
 google-chrome
 lazydocker
 balena-etcher
+visual-studio-code-bin
