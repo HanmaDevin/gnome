@@ -40,3 +40,4 @@ libfido2
 calc
 gnome-keyring
 gdb
+jdk-openjdk
