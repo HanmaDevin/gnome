@@ -49,6 +49,9 @@ copy_config() {
   cp -r config/* "$HOME/.config"
   cp -r "$repo/Wallpaper" "$HOME/Pictures/"
   cp "$repo/.zshrc" "$HOME/"
+
+ sudo cp -r "$repo/icons/*" "/usr/share/icons"
+ sudo cp -r "$repo/themes/*" "/usr/share/themes"
 }
 
 configure_git() {
