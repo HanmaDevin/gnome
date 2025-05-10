@@ -76,8 +76,6 @@ export FZF_COMPLETION_DIR_OPTS="--walker dir,follow"
 
 export PATH="$PATH:$HOME/.local/bin"
 
-fastfetch
-
 _fzf_comprun() {
   local command=$1
   shift
@@ -102,19 +100,7 @@ alias get="sudo pacman -S --noconfirm"
 alias remove="sudo pacman -Rns --noconfirm"
 alias update="sudo pacman -Syu"
 
-alias editzsh="nvim ~/.zshrc"
-alias editkeys="nvim ~/.config/hypr/keybinds.conf"
-alias editkb="nvim ~/.config/hypr/keyboard.conf"
-alias editmonitor="nvim ~/.config/hypr/monitor.conf"
-alias v="nvim"
-alias vim="nvim"
-alias vi="nvim"
-alias bt="bluetuith"
-alias wifi="nmtui"
-
-alias projects="cd $HOME/Documents/Github/Projects"
-
-alias g="geany"
+alias editzsh="code ~/.zshrc"
 alias lg="lazygit"
 alias lazydocker="sudo lazydocker"
 
@@ -129,8 +115,7 @@ alias ..='z ..'
 alias startdocker="systemctl start docker"
 
 # you may also use the following one
-bindkey -s '^o' 'nvim $(fzf)\n'
-bindkey -s '^e' 'yazi\n'
+bindkey -s '^o' 'code $(fzf)\n'
 
 # python environments
 alias deac="deactivate"
@@ -143,7 +128,7 @@ function createnv() {
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 alias mkdir='mkdir -p'
 
-export EDITOR=nvim
+export EDITOR=code
 
 # History
 HISTSIZE=5000
