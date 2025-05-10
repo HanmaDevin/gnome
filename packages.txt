@@ -42,3 +42,4 @@ gnome-keyring
 gdb
 jdk-openjdk
 cargo
+go
