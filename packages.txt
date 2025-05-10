@@ -41,3 +41,4 @@ calc
 gnome-keyring
 gdb
 jdk-openjdk
+cargo
