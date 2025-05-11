@@ -100,6 +100,8 @@ sudo pacman -Syu
 
 git clone "https://github.com/HanmaDevin/gnome.git" "$repo"
 
+installPackages
+
 installYay
 
 installAurPackages
